@@ -57,7 +57,7 @@ int main(int argc, const char * argv[]) {
         }
     }*/
         
-        /*!!!!!!!!YOU HAVE TO MAKE A LOOP FOR BOTH VECTOS TO FIND SIMILAR LETTERS AND CRYPTE!!!!!!!*/
+        /*!!!!!!!!TWO METHODS ARE MENTIONNED IN THIS CODE, THE ONE COMMENTED IS LESS EFFICIENT THAN THE OTHER ONE AND IT ENCIPER SIMILAR LETTERS BY SAME LETTERS!!!!!!!*/
         
     cout << "The text you inserted is : " << texttoo << endl;
     cout << "The encrypted version of the text is : " << endl;
@@ -73,6 +73,9 @@ int main(int argc, const char * argv[]) {
     cout << "WARNING REMAINDER : DO NOT SHARE YOUR CRYPTION KEY DATA !!!!!" << endl;
     cout << " " << endl;
     return 0;
+    
+    /*THE MAIN IDEA OF THIS CODE IS TO CREATE A RANDOM KEY OF INTEGERS, MOVING FORWARD THE LETTERS USING THE KEY CHOSEN AND ALLOCATE THE REACHED LETTER TO THE MAIN LETTER OF THE TEXT.*/
+    /*FOR THIS REASON THE KEY IS A TOP SECRET INFORMATION THAT SHOULD NOT BE SHARED JUST BY THE RECEIVER OF THE TEXT OR THE MESSAGEGE*/
 }
 
 
