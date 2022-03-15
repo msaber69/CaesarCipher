@@ -16,7 +16,7 @@ int main(int argc, const char * argv[]) {
     string textto;
     int keylength;
     srand((unsigned)time(0));
-    cout << "---------This is the Ceasar Chiper Program, completly developped by :---------" << endl;
+    cout << "---------This is the Ceasar Cipher Program, completly developped by :---------" << endl;
     cout << "----------------------Mohammed Saber BELLAAZIRI-------------------------" << endl;
     cout << "Please insert the text you wanna encrypt: " << endl;
     getline(cin, textto);
